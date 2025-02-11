@@ -1,133 +1,93 @@
-RFC Process for Real Estate Summit & Miamiverse Launch
+# MiamiVerse RFC (Request for Comments)
 
-Objective: Create actionable proposals demonstrating how spatial computing enhances real estate workflows today while building toward long-term digital twin capabilities.
-1. Simplified RFC Structure (Non-Technical Focus)
+The MiamiVerse is the digital twin of Miami-Dade County.
 
-Repo: github.com/miamiverse/rfc
-Template:
-markdown
-Copy
+## Objective
+To gather and document meaningful ways that a digital twin can enhance Miami-Dade County for all stakeholders. Through this RFC process, we aim to identify, evaluate, and implement use cases that benefit our community.
 
-# [Proposal Title] (e.g., "Virtual Zoning Overlays")
+## RFC Template
 
-## Problem Statement  
-*What real-world real estate challenge does this address?*  
-(e.g., "Developers struggle to visualize zoning restrictions in context")
+### [Proposal Title]
 
-## Spatial Solution  
-*How does Miamiverse/Spatio Protocol solve this?*  
-(e.g., "AR overlay showing FAR limits and setback rules when viewing a property via mobile")
+#### Problem Statement
+*What challenge or opportunity does this address?*
 
-## Data Sources  
-*Which Miami-Dade web2 systems/data can be used?*  
-(e.g., Miami-Dade Zoning GIS API + Property Appraiser records)
+#### Proposed Solution
+*How can the digital twin help solve this?*
 
-## Stakeholder Impact  
-- Residents: [Benefit]  
-- RE Professionals: [Benefit]  
-- Government: [Benefit]  
+#### Stakeholder Benefits
+- Residents: [Benefits]
+- Businesses: [Benefits]
+- Government: [Benefits]
 
-## Next Steps  
-- [ ] Data access approval from [Department]  
-- [ ] Prototype design by [Date]  
+#### Data Requirements
+*What existing data sources could support this proposal?*
 
-Process:
+#### Next Steps
+- [ ] Required approvals
+- [ ] Implementation timeline
+- [ ] Success metrics
 
-    Pre-Summit Brainstorm: Seed repo with 3-5 "Starter RFCs" aligned with summit themes.
+## How to Contribute
 
-        Example: "RFC #1: XR Site Walks – Embedding Construction Plans in Physical Spaces"
+1. **Submit an RFC**
+   - Fork this repository
+   - Use the template above
+   - Submit a pull request
 
-    Summit Participation:
+2. **Review & Comment**
+   - Review existing proposals
+   - Add constructive feedback
+   - React with:
+     - 👍 Support
+     - 💡 Enhancement suggestion
+     - ⭐ High priority
 
-        Live RFC board at venue (digital + physical)
+3. **Track Progress**
+   - Approved RFCs will be tagged and tracked
+   - Updates posted regularly
+   - Pilot programs announced here
 
-        QR codes linking to RFC submissions on property listings
+## Focus Areas
 
-    Voting: Attendees "react" to RFCs via GitHub emojis:
+### For Residents
+- Neighborhood improvements
+- Public service access
+- Community engagement
 
-        🏠 = Resident priority
+### For Businesses
+- Economic opportunities
+- Development planning
+- Market analysis
 
-        📈 = Developer priority
+### For Government
+- Service optimization
+- Resource allocation
+- Policy planning
 
-        🚀 = Quick win
+## Roadmap
 
-2. Immediate Demo Opportunities (Low-Code)
+1. **Phase 1: Ideation** (Current)
+   - Gather community input
+   - Identify priority areas
+   - Form working groups
 
-A. "Living Listings" Prototype
+2. **Phase 2: Pilot Programs**
+   - Select initial projects
+   - Implement proof of concepts
+   - Gather feedback
 
-    Tech Stack:
+3. **Phase 3: Scaling**
+   - Expand successful pilots
+   - Integrate with existing systems
+   - Measure impact
 
-        Miami-Dade Property Appraiser API (existing web2)
+## Key Principles
 
-        Spatio Protocol (basic location tagging)
+- **Inclusive**: All stakeholders have a voice
+- **Transparent**: Open process and clear communication
+- **Practical**: Focus on achievable improvements
+- **Collaborative**: Build on existing strengths
+- **Forward-thinking**: Plan for future needs
 
-        A-Frame/AR.js (web-based AR)
-
-    Demo Flow:
-
-        Scan QR code on physical "For Sale" sign
-
-        AR overlay shows:
-
-            Zoning boundaries
-
-            3D approved building envelope
-
-            Nearby Spatio Protocol-enabled amenities (e.g., WAVΞ RIDΞRS cleanup zones)
-
-B. "Community Memory" Timeline
-
-    Data: Historic preservation records + permit data
-
-    Spatio Feature: temporal_window in SpatialAddress
-
-    Demo: Swipe through time layers on a lot:
-
-        1980s: Single-family home
-
-        2024: Proposed mixed-use building
-
-        2040: Sea-level rise projection
-
-C. Summit-Specific Features
-
-    Spatial Agenda: Sessions mapped to physical locations in Miamiverse.
-
-    Live Polling: Attendees stake location-based opinions:
-
-        "Where should Miamiverse expand next?" (votes tied to map coordinates)
-
-3. Stakeholder Engagement Tracks
-
-For Residents:
-
-    RFC Idea: "See Future Developments in My Neighborhood"
-
-    Tool: Web-based viewer embedding Miamiverse data into Miami-Dade’s existing property search portal.
-
-For Developers:
-
-    RFC Idea: "Automated Impact Reports via Spatial Data"
-
-    Tool: Spatio Protocol + ChatGPT to generate traffic/environmental analyses from county data.
-
-For Government:
-
-    RFC Idea: "Permit Application AR Preview"
-
-    Demo: Tablet showing proposed building heights against existing skyline.
-
-4. Post-Summit Roadmap
-
-Week 1: Publish "RFC Leaderboard" showing top proposals by stakeholder group.
-Month 1: Pilot winning RFC with 3 properties (e.g., Coconut Grove historic district).
-Q3 2024: Launch "Adopt-a-Block" program – neighborhoods propose Miamiverse features.
-Key Messaging for Summit
-
-    For Skeptics: "This isn’t about replacing Miami – it’s about giving every street corner a voice."
-
-    For Innovators: "The RFC process turns NIMBY into YIMBY – Yes In My Backyard 2.0."
-
-    For Government: "Miamiverse is a collaborative layer, not a replacement for existing systems."
-
-By focusing on concrete real estate use cases and an accessible RFC process, you’ll turn summit attendees into co-creators while laying groundwork for deeper technical integration. 🏗️
+Join us in shaping the future of Miami-Dade County through the MiamiVerse digital twin initiative.
